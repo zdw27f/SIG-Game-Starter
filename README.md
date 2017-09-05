@@ -14,7 +14,7 @@
 
 9. After the game finishes, it will print out a link. Put this link in you web browser, and you should be able to see the game visually played out.
 
-Note: When your done, make sure to close the game server by entering “Ctrl + C” and then type “exit” on one of the terminals (followed by an enter) and then enter “vagrant halt” to stop the vagrant box (virtual machine) from running. The next time you want the vagrant box (virtual machine) back up and running, enter “vagrant reload —provision”.
+Note: When your done, make sure to close the game server by entering “Ctrl + C” and then type “exit” on one of the terminals (followed by an enter) and then enter “vagrant halt” to stop the vagrant box (virtual machine) from running. The next time you want the vagrant box (virtual machine) back up and running, enter “vagrant reload --provision”.
 
 # Original README below
 
