@@ -6,13 +6,13 @@
 3. Then run “vagrant ssh” and navigate into the Cerveau folder.
 4. Run “node ./main.js” to start the Game server.
 5. Open up 2 new terminal tabs/windows and go back to the SIG-Game-Starter folder directory.
-6. In one of the new terminals, enter the command "make"
-7. In each of the two terminals, run the command "vagrant ssh"
-7. In each of the two new terminals, you should then run the command “./run Saloon”. This will start two AI’s (in this case the same AI) and they will play against each other.
+6. In each of the two terminals, run the command "vagrant ssh"
+7. In one of the new terminals, enter the command "make"
+8. In each of the two new terminals, you should then run the command “./run Saloon”. This will start two AI’s (in this case the same AI) and they will play against each other.
 
 *__Note__: At this point, you should have one terminal running the game server, and two others each which ran an AI against each other.
 
-8. After the game finishes, it will print out a link. Put this link in you web browser, and you should be able to see the game visually played out.
+9. After the game finishes, it will print out a link. Put this link in you web browser, and you should be able to see the game visually played out.
 
 Note: When your done, make sure to close the game server by entering “Ctrl + C” and then type “exit” on one of the terminals (followed by an enter) and then enter “vagrant halt” to stop the vagrant box (virtual machine) from running. The next time you want the vagrant box (virtual machine) back up and running, enter “vagrant reload —provision”.
 
