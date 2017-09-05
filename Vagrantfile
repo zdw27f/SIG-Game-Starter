@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
     sudo apt-get upgrade -y
     sudo apt-get install -y libboost-all-dev cmake g++ nodejs
 
-    cd Joueur.cpp/Cerveau/
+    cd SIG-Game-Starter/Cerveau/
     npm install
   SHELL
 end

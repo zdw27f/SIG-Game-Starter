@@ -1,23 +1,17 @@
 # Setting up your environment
 *__Note__: This is being done assuming you're using the C++ client with Vagrant/Virtualbox. Look below in the Original README for instructions on how to install Vagrant & Virtualbox.
 
-1. Create a folder named MegaMiner20
-2. Clone down “Cerveau” (game server) into MegaMiner20 folder.
-3. Clone down “Joueur.cpp” into MegaMiner20 folder.
-4. Move Cerveau into Joueur.cpp folder
-
-*__Note__: Assume Vagrantfile is set up correctly
-
-5. Change to the Joueur.cpp folder and run “vagrant up”
-6. Then run “vagrant ssh” and navigate into the Cerveau folder.
-7. Run “node ./main.js” to start the Game server.
-8. Open up 2 new terminal tabs/windows and go back to the Joueur.cpp folder directory.
-9. In one of the new terminals, enter the command "make"
-10. In each of the two new terminals, you should then run the command “./run Saloon”. This will start two AI’s (in this case the same AI) and they will play against each other.
+1. Clone down this repo: https://github.com/zdw27f/SIG-Game-Starter
+2. Change to the repo's folder and run “vagrant up”
+3. Then run “vagrant ssh” and navigate into the Cerveau folder.
+4. Run “node ./main.js” to start the Game server.
+5. Open up 2 new terminal tabs/windows and go back to the Joueur.cpp folder directory.
+6. In one of the new terminals, enter the command "make"
+7. In each of the two new terminals, you should then run the command “./run Saloon”. This will start two AI’s (in this case the same AI) and they will play against each other.
 
 *__Note__: At this point, you should have one terminal running the game server, and two others each which ran an AI against each other.
 
-11. After the game finishes, it will print out a link. Put this link in you web browser, and you should be able to see the game visually played out.
+8. After the game finishes, it will print out a link. Put this link in you web browser, and you should be able to see the game visually played out.
 
 Note: When your done, make sure to close the game server by entering “Ctrl + C” and then type “exit” on one of the terminals (followed by an enter) and then enter “vagrant halt” to stop the vagrant box (virtual machine) from running. The next time you want the vagrant box (virtual machine) back up and running, enter “vagrant reload —provision”.
 
