@@ -5,8 +5,9 @@
 2. Change to the repo's folder and run “vagrant up”
 3. Then run “vagrant ssh” and navigate into the Cerveau folder.
 4. Run “node ./main.js” to start the Game server.
-5. Open up 2 new terminal tabs/windows and go back to the Joueur.cpp folder directory.
+5. Open up 2 new terminal tabs/windows and go back to the SIG-Game-Starter folder directory.
 6. In one of the new terminals, enter the command "make"
+7. In each of the two terminals, run the command "vagrant ssh"
 7. In each of the two new terminals, you should then run the command “./run Saloon”. This will start two AI’s (in this case the same AI) and they will play against each other.
 
 *__Note__: At this point, you should have one terminal running the game server, and two others each which ran an AI against each other.
